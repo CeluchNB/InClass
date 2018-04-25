@@ -12,3 +12,10 @@ python:
     
 #command to run tests
 script: "python simple_tests.py"
+
+notifications:
+    email:
+        recipients:
+            - noah.celuch@gmail.com
+        on_success: never
+        on_failure: always
